@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mario-font {
+  font-family: 'Press Start 2P', cursive;
+  letter-spacing: 1px;
+}
+
+.time-font {
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1px;
+}
