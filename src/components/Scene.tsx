@@ -11,6 +11,7 @@ import { Model as Stairs2 } from '../models/Stairs2';
 import { Model as Walls2 } from '../models/Walls2';
 import { Model as Castle } from '../models/Castle';
 import { ParticleField } from './ParticleField';
+import {Model as Mario} from '../models/Mario';
 
 export const Scene = () => {
   useThemeStore();
@@ -33,6 +34,7 @@ export const Scene = () => {
       {currentWeather === 'rainy' && <Rain />}
       {currentWeather === 'windy' && <Wind />}
       {currentWeather === 'snowy' && <Snow />}
+      <Mario/>
     </>
   );
 };
